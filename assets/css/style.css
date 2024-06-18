@@ -126,9 +126,12 @@ h6 {
     font-size: 28px;
   }
 
+  
+
   #header #logo img {
     max-height: 40px;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -415,7 +418,7 @@ h6 {
 }
   #hero {
     background-attachment: fixed;
-  
+    background-position: right center;
 }
 
 @media (max-height: 640px) {
@@ -1230,16 +1233,18 @@ section {
 }
 
 #contact .contact-about h3 {
-  font-size: 36px;
+  font-size: 30px;
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  /* font-weight: 300px; */
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #e01d1d;
 }
+
+
 
 #contact .contact-about p {
   font-size: 14px;
